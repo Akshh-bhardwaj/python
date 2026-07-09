@@ -7,7 +7,7 @@ Welcome to the **Advanced Python Learning Repository**! This repository has been
 ## 📂 Repository Structure
 
 The repository is organized into two primary tracks:
-- **`Basic/`**: Contains basic scripts (`hello.py`, `chatbot.py`, `turtle_test.py`) for syntax verification and foundational practices.
+- **`Basic/`**: Contains basic scripts (`hello.py`, `chatbot.py`, `turtle_test.py`, `tempCodeRunnerFile.python`) for syntax verification and foundational practices.
 - **`Advanced/`**: Focuses on advanced principles, where each topic contains a `notes.md` file for deep technical theory and an executable `example.py` file to demonstrate the concepts.
 
 ---
@@ -23,6 +23,9 @@ The repository is organized into two primary tracks:
 | **05** | [Metaprogramming & Introspection](file:///Users/akshit/Desktop/CODE/python/Advanced/05_metaprogramming) | Self-modifying code and dynamic analysis | Advanced introspection (`inspect` module), Dynamic execution (`eval` & `exec`), Static type-hinting & `typing.Protocol` |
 | **06** | [Design Patterns](file:///Users/akshit/Desktop/CODE/python/Advanced/06_design_patterns) | Enterprise software architecture patterns | Singleton Metaclass, Factory pattern, Observer subscription system |
 | **07** | [Testing & Logging](file:///Users/akshit/Desktop/CODE/python/Advanced/07_testing_and_logging) | Production-grade execution and safety | Structured multi-level logging, Custom exception chaining (`raise from`), `unittest` framework with `patch` and `MagicMock` |
+| **08** | [Advanced Data Structures](file:///Users/akshit/Desktop/CODE/python/Advanced/08_advanced_data_structures) | High-performance container data types | Collections (`defaultdict`, `Counter`, `deque`, `NamedTuple`), Min-heaps (`heapq`), Sorted insertions (`bisect`) |
+| **09** | [Database Integration & ORMs](file:///Users/akshit/Desktop/CODE/python/Advanced/09_database_integration) | SQL integrations and transaction safety | DB-API specifications, Built-in SQLite (`sqlite3`), Preventing SQL injection, Rollback context managers, ORM patterns |
+| **10** | [System & Networking](file:///Users/akshit/Desktop/CODE/python/Advanced/10_system_and_networking) | Low-level execution and TCP socket streams | OS/Sys/Shutil functions, Subprocess pipeline management (`subprocess`), Concurrent TCP socket server-client communication |
 
 ---
 
@@ -37,7 +40,7 @@ python3 Advanced/01_advanced_oop/example.py
 # Example: Running the Concurrency and Asyncio examples
 python3 Advanced/04_concurrency_and_asyncio/example.py
 
-# Example: Running the Logger, Custom Exceptions & Unit tests
-python3 Advanced/07_testing_and_logging/example.py
+# Example: Running the Database Transactions rollback examples
+python3 Advanced/09_database_integration/example.py
 ```
 Each file is completely self-contained and outputs descriptive logging statements directly to the console.
