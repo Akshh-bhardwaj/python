@@ -7,8 +7,20 @@ Welcome to the **Advanced Python Learning Repository**! This repository has been
 ## 📂 Repository Structure
 
 The repository is organized into two primary tracks:
-- **`Basic/`**: Contains basic scripts (`hello.py`, `chatbot.py`, `turtle_test.py`, `tempCodeRunnerFile.python`) for syntax verification and foundational practices.
+- **`Basic/`**: Focuses on foundational Python principles, where each module contains a `notes.md` file for syntax & theory and an executable `example.py` file to demonstrate concepts.
 - **`Advanced/`**: Focuses on advanced principles, where each topic contains a `notes.md` file for deep technical theory and an executable `example.py` file to demonstrate the concepts.
+
+---
+
+## 📚 Basic Topics Curriculum
+
+| Module | Topic Name | Description | Key Subtopics Covered |
+| :--- | :--- | :--- | :--- |
+| **01** | [Variables & Types](file:///Users/akshit/Desktop/CODE/python/Basic/01_variables_and_types) | Variables and casting | Primitive types (int, float, str, bool), dynamic typing, casting, introspection |
+| **02** | [Control Flow](file:///Users/akshit/Desktop/CODE/python/Basic/02_control_flow) | Loops and conditionals | if-elif-else, for loops, while loops, loop controls (break, continue, pass) |
+| **03** | [Collections](file:///Users/akshit/Desktop/CODE/python/Basic/03_collections) | High-level data grouping | Lists, tuples, sets, dictionaries, mutability, indexing, basic operations |
+| **04** | [Functions & Scope](file:///Users/akshit/Desktop/CODE/python/Basic/04_functions_and_scope) | Reusable logic blocks | Function def, default arguments, variable-length parameters (*args, **kwargs), local vs global scope |
+| **05** | [File I/O & Exceptions](file:///Users/akshit/Desktop/CODE/python/Basic/05_file_handling_and_exceptions) | Resource and error safety | with statement, reading/writing files, try-except-finally blocks |
 
 ---
 
